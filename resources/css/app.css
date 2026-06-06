@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@theme {
+    /*
+     * Overthink.in — Design Tokens
+     * Mobile-first | Dark immersive | Internet-native aesthetic
+     */
+
+    /* Typography */
+    --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-display: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+    /* Brand Colors — akan diexpand di fase UI */
+    --color-brand: oklch(65% 0.27 280);
+    --color-brand-dim: oklch(50% 0.20 280);
+}
